@@ -18,6 +18,7 @@ function [adj,scores,evals,order,parents,dags] = LassoOrderGreedy(X,maxIter,rest
 %   adj - adjacency matrix for the highest scoring structure
 %   scores - scores after each step
 %   evals - number of family evaluations after each step
+%   order - number (i) in order represents the node i
 %   parents - parameters for highest scoring structure
 %   dags - adjacency matrices after each step
 
